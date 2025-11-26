@@ -1,0 +1,108 @@
+/* --- NEW: PROFILE BOX STYLING --- */
+.profile-box {
+  /* CHANGE: Adjusted bottom padding to 0.5rem to reduce space below icons. */
+  /* Format is: top | right | bottom | left */
+  padding: 2.5rem 3.5rem 0.1rem 3.5rem; 
+  
+  border-radius: 0; 
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+  text-align: center; 
+}
+
+/* --- Hero Layout Container (Mostly for Gap and Centering) --- */
+.columns.hero-wrap {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;                   
+  margin: 3rem auto;           
+  max-width: 960px;            
+}
+
+/* Override Quarto's automatic column sizing for this section */
+.columns.hero-wrap > .column:first-child {
+  flex: 0 0 auto !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* --- Profile Photo Styling --- */
+.profile-photo {
+  display: block;
+  width: 260px; 
+  height: auto;
+  border-radius: 0;
+  object-fit: cover;
+  /* padding: 0.5rem 2.5rem 0.5rem 2.5rem; */
+  margin: 0 auto 0.75rem auto; 
+  box-shadow: none;
+}
+
+/* --- Social Icons Styling --- */
+.social-links {
+  text-align: center;
+}
+.social-links a {
+  margin: 0 0.35rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+} 
+/* Removed: .social-links a:hover (handled by brand.scss) */
+
+/* --- Responsive Tweak --- */
+@media (max-width: 768px) { 
+  .columns.hero-wrap {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .profile-box {
+    width: 80%; 
+    max-width: 300px;
+    margin: 0 auto; 
+  }
+  .hero-name, .about {
+    text-align: center;
+  }
+}
+
+/* --- Font Imports (Removed, handle in index.qmd or brand.scss if needed) --- */
+/* You had font imports here, but they are in index.qmd's header now. */
+/* Removing duplicate font-family declarations to avoid conflicts. */
+/* If you need to set fonts, use brand.scss for a global effect. */
+
+/* --- Right Column Content Styling --- */
+.hero-name {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  /* NEW: Explicitly apply the 'Libre Baskerville' font */
+  font-family: 'Libre Baskerville', serif;
+  border-bottom: none; 
+}
+
+.about {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.navbar .nav-link, 
+.navbar .nav-item {
+    /* Set a consistent font size for all links */
+    font-size: 1.15rem; 
+    font-weight: 400;
+    /* font-family: 'Libre Baskerville', serif; */
+}
+
+
+/* --- GLOBAL HEADING --- */
+.page-title {
+  text-align: center;
+  font-size: 2.3rem; 
+  font-weight: 400; 
+  margin-top: 2rem;
+  border-bottom: none !important;
+  margin-bottom: 2rem; 
+  font-family: 'Libre Baskerville', serif;
+  }

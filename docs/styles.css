@@ -51,7 +51,7 @@
 /* Removed: .social-links a:hover (handled by brand.scss) */
 
 /* --- Responsive Tweak --- */
-@media (max-width: 768px) { 
+/* @media (max-width: 768px) { 
   .columns.hero-wrap {
     flex-direction: column;
     gap: 2rem;
@@ -64,7 +64,39 @@
   .hero-name, .about {
     text-align: center;
   }
+} */
+
+@media (max-width: 768px) { 
+  .columns.hero-wrap {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* Force BOTH stacked columns to span full width */
+  .columns.hero-wrap > .column,
+  .columns.hero-wrap > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  .profile-box {
+    width: 80%; 
+    max-width: 300px;
+    margin: 0 auto; 
+  }
+
+  .hero-name, .about {
+    text-align: center;
+  }
+
+  /* If your about text is inside a narrower wrapper, force it full width */
+  .about {
+    width: 100%;
+    max-width: 100%;
+  }
 }
+
 
 /* --- Font Imports (Removed, handle in index.qmd or brand.scss if needed) --- */
 /* You had font imports here, but they are in index.qmd's header now. */

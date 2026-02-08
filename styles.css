@@ -120,13 +120,11 @@
   /* text-decoration: underline; */
 }
 
-/* .navbar .nav-link, 
-.navbar .nav-item { */
-    /* Set a consistent font size for all links */
-    /* font-size: 1.15rem; 
-    font-weight: 400; */
-    /* color: var(--color-link-hover); */
-/* } */
+/* Keep the navbar logo from blowing up the layout on mobile */
+.navbar-brand img {
+  max-height: 24px;
+  width: auto;
+}
 
 
 footer.footer {
@@ -169,3 +167,10 @@ footer.footer .footer-quarto img {
   margin-bottom: 2rem; 
   font-family: 'Libre Baskerville', serif;
   }
+
+/* Mobile: hide site title to prevent wrapping */
+@media (max-width: 576px) {
+  .navbar-title {
+    display: none !important;
+  }
+}

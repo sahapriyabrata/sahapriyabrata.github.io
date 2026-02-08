@@ -16,6 +16,7 @@ website:
         href: publications.qmd
   search: true
   google-analytics: G-8T03CZESVL
+  site-url: https://sahapriyabrata.github.io
 
   page-footer:
     center: |

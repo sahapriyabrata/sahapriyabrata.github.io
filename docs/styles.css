@@ -176,7 +176,7 @@ footer.footer .footer-quarto img {
 
   /* Shrink ONLY the logo on mobile */
   .navbar-brand img {
-    max-height: 24px;
+    max-height: 16px;
     width: auto;
     flex: 0 0 auto;
   }

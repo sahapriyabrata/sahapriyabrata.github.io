@@ -184,7 +184,7 @@ footer.footer .footer-quarto img {
   /* Shrink ONLY the title on mobile (and keep it on one line) */
   .navbar-title {
     flex: 1 1 auto;
-    min-width: 0;
+    min-width: 1;
     font-size: 1rem;
     line-height: 1.1;
     white-space: nowrap;

@@ -172,6 +172,9 @@ footer.footer .footer-quarto img {
     gap: 0.5rem;
     max-width: calc(100% - 3.25rem); /* leave space for hamburger */
     overflow: hidden;
+    max-height: 32px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   /* Shrink ONLY the logo on mobile */

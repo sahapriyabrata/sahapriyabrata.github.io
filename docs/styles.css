@@ -120,12 +120,6 @@
   /* text-decoration: underline; */
 }
 
-/* Keep the navbar logo from blowing up the layout on mobile */
-.navbar-brand img {
-  max-height: 24px;
-  width: auto;
-}
-
 
 footer.footer {
   font-size: 1.1rem;
@@ -168,9 +162,37 @@ footer.footer .footer-quarto img {
   font-family: 'Libre Baskerville', serif;
   }
 
-/* Mobile: hide site title to prevent wrapping */
+/* --- Mobile-only navbar fixes (desktop unchanged) --- */
 @media (max-width: 576px) {
+
+  /* Make the brand area (logo + title) wrap nicely instead of forcing overflow */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: calc(100% - 3.25rem); /* leave space for hamburger */
+    overflow: hidden;
+  }
+
+  /* Shrink ONLY the logo on mobile */
+  .navbar-brand img {
+    max-height: 28px;
+    width: auto;
+    flex: 0 0 auto;
+  }
+
+  /* Shrink ONLY the title on mobile (and keep it on one line) */
   .navbar-title {
-    display: none !important;
+    font-size: 1rem;
+    line-height: 1.1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* prevents ugly wrap */
+  }
+
+  /* Ensure the hamburger stays visible and aligned */
+  .navbar-toggler {
+    margin-left: auto;
   }
 }
+

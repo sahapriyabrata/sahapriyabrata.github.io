@@ -176,13 +176,15 @@ footer.footer .footer-quarto img {
 
   /* Shrink ONLY the logo on mobile */
   .navbar-brand img {
-    max-height: 28px;
+    max-height: 24px;
     width: auto;
     flex: 0 0 auto;
   }
 
   /* Shrink ONLY the title on mobile (and keep it on one line) */
   .navbar-title {
+    flex: 1 1 auto;
+    min-width: 0;
     font-size: 1rem;
     line-height: 1.1;
     white-space: nowrap;

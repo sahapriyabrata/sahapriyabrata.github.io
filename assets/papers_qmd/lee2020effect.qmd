@@ -1,0 +1,10 @@
+---
+title: "Effect of Process Variations in Digital Pixel Circuits on the Accuracy of DNN-Based Smart Sensor"
+author_before: ["Minah Lee, Mandovi Mukherjee"]
+author_after: [", Mohammad Faisal Amir, Taesik Na, and Saibal Mukhopadhyay"]
+year: 2020
+type: conference
+publication: "IEEE International Conference on Artificial Intelligence Circuits and Systems"
+acronym: "AICAS"
+url_source: "https://doi.org/10.1109/AICAS48895.2020.9073975"
+---

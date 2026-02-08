@@ -1,0 +1,9 @@
+---
+title: "Adaptive Control of Camera Modality with Deep Neural Network-based Feedback for Efficient Object Tracking"
+author_after: [", Burhan Ahmad Mudassar, and Saibal Mukhopadhyay"]
+year: 2018
+type: conference
+publication: "15th IEEE International Conference on Advanced Video and Signal Based Surveillance"
+acronym: "AVSS"
+url_source: "https://doi.org/10.1109/AVSS.2018.8639423"
+---

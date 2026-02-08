@@ -1,0 +1,10 @@
+---
+title: "Fast Adaptive Motion Estimation Algorithm and Its Efficient VLSI System for High Definition Videos"
+author_before: ["Rohan Mukherjee"]
+author_after: [", Indrajit Chakrabarti, Pranab Kumar Dutta, and Ajoy Kumar Ray"]
+year: 2018
+type: journal
+publication: "Expert Systems with Applications"
+acronym: "ESWA"
+url_source: "https://www.sciencedirect.com/science/article/abs/pii/S095741741830099X"
+---

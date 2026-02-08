@@ -1,0 +1,84 @@
+/*-- scss:uses --*/
+@use "sass:color";
+
+/*-- scss:defaults --*/
+/* Inherit the link and font styles from the light mode brand.scss */
+
+/* Brand palette overrides for DARK MODE */
+$primary: #e19b80;          // A lighter version of your primary blue for visibility on dark BG
+$secondary: #b5c1dc; // #ca7b5c;        // A lighter version of your accent color
+
+/* Background & Text Colors */
+$body-bg: #1e2832; //#1f2d46;       // Dark background color
+$body-color: #e5e7eb;       // Light text color
+
+/* --- PROFILE BOX COLORS (Should be light on dark) --- */
+$profile-box-bg: #374151;             // Slightly lighter box background
+$profile-box-border: #4b5563;         // Subtle border on dark
+$profile-icon-color: $primary; // #d1ae95;     
+$profile-icon-hover: $secondary;      // Keep accent color for hover
+
+/* Links */
+$link-color: $primary;
+$link-hover-color: color.scale($primary, $lightness: 12%);
+
+/* Navbar */
+$navbar-bg: $body-bg;
+$navbar-fg: $secondary; //#b5c1dc;
+
+/* Optional surface tweaks (for cards, code blocks, etc.) */
+$card-bg: #3c3c3c;
+$card-border-color: rgba(255, 255, 255, 0.1);
+
+/*-- scss:rules --*/
+
+// .social-links a {
+//     color: $profile-icon-color !important;
+//   }
+//   .social-links a:hover {
+//     color: $profile-icon-hover !important;
+// }
+
+.social-links a {
+  /* Box Properties */
+  display: inline-block; 
+  // padding: 1px 6px; 
+  min-width: 2.5rem;
+  border-radius: 5px; 
+  align-items: center;
+  justify-content: center;
+  
+  /* Colors from CSS Variables */
+  border: 1px solid $primary; 
+  color: $primary; 
+}
+
+.social-links a:hover {
+  /* Uses CSS Variable for fill color */
+  background-color: $link-hover-color; 
+  color: white; 
+  text-decoration: none; 
+}
+
+.navbar-brand {
+    /* Example: Use your primary brand color */
+    color: $primary !important; 
+}
+
+
+/* --- START CSS VARIABLE DEFINITIONS for LISTING STYLES (DARK MODE) --- */
+/* These definitions override the light theme variables when dark mode is active */
+:root {
+  /* Colors */
+  --color-primary: #{$primary};
+  --color-link-hover: #{$link-hover-color};
+  --color-card-bg: #{$card-bg};
+  --color-link: #{$secondary}; //#{$navbar-fg};
+  
+  /* Fonts - Inherited from Light Mode */
+  
+  /* Neutral Color for Venue/Author */
+  --color-neutral-text: #b0b0b0;     /* Light gray author text */
+  --color-border-line: rgba(255, 255, 255, 0.25);
+}
+/* --- END CSS VARIABLE DEFINITIONS --- */

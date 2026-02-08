@@ -1,0 +1,11 @@
+---
+title: "Neural Identification for Control"
+author_after: [", Magnus Egerstedt, and Saibal Mukhopadhyay"]
+year: 2021
+type: journal
+publication: "IEEE Robotics and Automation Letters"
+acronym: "RA-L"
+url_source: "https://ieeexplore.ieee.org/document/9384260"
+url_pdf: "https://arxiv.org/pdf/2009.11782"
+url_code: "https://github.com/sahapriyabrata/NI4C"
+---

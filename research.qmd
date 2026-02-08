@@ -1,0 +1,22 @@
+---
+title: ""
+page-layout: full
+
+listing:
+  - id: thrusts
+    contents: research/*.qmd          # ← each thrust lives here
+    sort: "order asc"                 # control order with a number
+    page-size: 50
+    fields: [title, image, summary, subthrusts, url]   # fields we’ll render
+    template: _ejs/research.ejs
+
+<!-- format:
+  html:
+    css:
+      - assets/research.css -->
+---
+
+<h1 class="page-title">Research</h1>
+
+:::{#thrusts}
+:::

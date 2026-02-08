@@ -1,0 +1,10 @@
+---
+title: "Bridging Autoencoders and Dynamic Mode Decomposition for Reduced-order Modeling and Control of PDEs"
+author_after: [" and Saibal Mukhopadhyay"]
+year: 2024
+type: conference
+publication: "IEEE Conference on Decision and Control"
+acronym: "CDC"
+url_source: "https://ieeexplore.ieee.org/document/10886639"
+url_pdf: "https://arxiv.org/pdf/2409.06101"
+---

@@ -1,0 +1,10 @@
+---
+title: "A Ferroelectric FET-Based Processing-In-Memory Architecture for DNN Acceleration"
+author_before: ["Yun Long, Daehyun Kim, Edward Lee"]
+author_after: [", Burhan Ahmad Mudassar, Xueyuan She, Asif Islam Khan, and Saibal Mukhopadhyay"]
+year: 2019
+type: journal
+publication: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
+acronym: "JXCDC"
+url_source: "https://doi.org/10.1109/JXCDC.2019.2923745"
+---

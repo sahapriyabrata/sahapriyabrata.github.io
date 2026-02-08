@@ -1,0 +1,10 @@
+---
+title: "SAFE-DNN: A Deep Neural Network With Spike Assisted Feature Extraction For Noise Robust Inference"
+author_before: ["Xueyuan She"]
+author_after: [", Daehyun Kim, Yun Long, and Saibal Mukhopadhyay"]
+year: 2020
+type: conference
+publication: "International Joint Conference on Neural Networks"
+acronym: "IJCNN"
+url_source: "https://doi.org/10.1109/IJCNN48605.2020.9207274"
+---

@@ -1,0 +1,92 @@
+/* Each thrust block */
+.research-entry-wrap {
+  padding: 1.5rem 0;
+  /* border-bottom: 1px solid var(--color-border-line); */
+  font-family: var(--font-heading);
+}
+
+/* Title */
+.research-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border-line);
+}
+
+/* Summary text */
+.research-summary {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+/* Grid of subthrust cards */
+.research-subthrust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.75rem;
+  margin: 0.75rem 0 0.5rem;
+}
+
+/* Individual subthrust card */
+.subthrust-card {
+  border: 1px solid var(--color-card-border);
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+  background-color: var(--color-card-bg);
+}
+
+/* Title and description inside card */
+.subthrust-title {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.subthrust-desc {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.subthrust-pubs-line {
+  font-family: var(--font-body);
+  margin-top: 0.5rem;
+  line-height: 1.45;
+  text-align: justify;
+}
+
+.subthrust-pubs-line a {
+  text-decoration: none;
+  color: var(--color-link-hover);
+}
+
+.subthrust-pubs-line a:hover {
+  text-decoration: underline;
+  color: var(--color-link);
+}
+
+/* Large image below */
+.research-image-wrap {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.research-image {
+  width: 100%;
+  max-width: 900px;     /* keep it readable */
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .research-image {
+    max-width: 100%;
+  }
+}

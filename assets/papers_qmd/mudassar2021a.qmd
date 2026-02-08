@@ -1,0 +1,10 @@
+---
+title: "A Task-Driven Feedback Imager with Uncertainty-Driven Hybrid Control"
+author_before: ["Burhan Ahmad Mudassar"]
+author_after: [", Marilyn Wolf, and Saibal Mukhopadhyay"]
+year: 2021
+type: journal
+publication: "Sensors"
+acronym: "SENSORS"
+url_source: "https://www.mdpi.com/1424-8220/21/8/2610"
+---

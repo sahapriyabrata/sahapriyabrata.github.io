@@ -1,0 +1,58 @@
+---
+title: "Scientific Machine Learning for Computational Modeling and Inference"
+order: 1
+image: /assets/images/sciml.png
+summary: >
+  This research thrust focuses on developing scientific machine learning frameworks for modeling, simulation, and inference in complex dynamical processes. Many scientific and engineering problems involve dynamical systems governed by known physical laws, unknown parameters, and limited or indirect observations. These problems naturally arise as coupled forward and inverse tasks, where predicting system evolution and inferring hidden states or parameters must be addressed jointly.
+
+  The central vision of this thrust is to integrate data-driven learning with scientific laws and numerical methods, enabling efficient solutions to both forward prediction and inverse inference problems. By embedding inductive biases from governing equations, system structure, and established numerical schemes into learning models, this work aims to achieve accurate, data-efficient, and computationally scalable modeling across a wide range of dynamical systems.
+subthrusts:
+  - title: Modeling Spatiotemporal Dynamical Systems
+    desc: > 
+      Many real-world processes, such as climate and ocean dynamics, geophysical processes, and other environmental phenomena, evolve over space and time and exhibit complex dynamics. Understanding the behavior of such dynamical processes is a fundamental problem in science and engineering. This line of research develops learning-based frameworks for modeling and predicting spatiotemporal dynamical systems by integrating PDE-based models and numerical methods with deep neural networks.
+        
+      A central theme is addressing scenarios with limited observations, including partially masked dynamics and sparsely or irregularly sampled data sites. Across multiple studies, these methods have been evaluated on synthetic as well as real-world datasets, including atmospheric temperature and sea-surface temperature, demonstrating reliable and efficient predictive performance.
+    image: /assets/images/spatiotemporal.png
+    pubs:
+      - id: "saha2022unravelled"
+        label: "RSTA 2022"
+      - id: "saha2021a"
+        label: "ACCESS 2021"
+      - id: "saha2021physicsincorporated"
+        label: "NEUNET 2021"
+        
+  - title: Modeling Multi-Agent Dynamics 
+    desc: >
+      Multi-agent systems are prevalent in both natural and engineered settings, ranging from swarms and social systems to networks of robots and autonomous vehicles. Understanding and predicting their behavior from sensory observations is a fundamental challenge. This line of research develops learning-based frameworks for modeling multi-agent dynamics by inferring hidden interactions directly from observed trajectories. 
+
+      A central theme of this research is enabling rapid adaptation with limited data when interaction parameters or the nature of interactions change over time. This is achieved by either imposing structure on deep neural networks based on physics- or nature-inspired interaction models, or by explicitly learning interaction graphs among agents from observations. By incorporating inductive biases about agent interactions or inferring them online, the resulting models can efficiently adapt to evolving dynamics and accurately capture changes in collective behavior.
+    image: /assets/images/multiagent.png
+    pubs:
+      - id: "kang2024online"
+        label: "NeurIPS 2024"
+      - id: "saha2020magnet"
+        label: "ICRA 2020"       
+
+  - title: Ocean Acoustic Tomography
+    desc: >
+      Highly complex ocean dynamics pose significant challenges in underwater acoustics, particularly for reconstructing the spatiotemporal variation of the ocean sound speed profile (SSP) from acoustic measurements between source–receiver pairs. This problem is naturally formulated as a dynamic parameter inversion task associated with a forward acoustic propagation model and is traditionally addressed using linearized, ray-based inversion techniques.
+      
+      This line of research investigates the role of machine learning in ocean acoustic tomography, with particular emphasis on addressing two key challenges: limited availability of empirical data and the nonstationary evolution of SSP dynamics. By exploring both direct learning of inverse mappings and the integration of data-driven dynamical models as regularizers within conventional inversion frameworks, this work aims to improve robustness, accuracy, and adaptability of SSP estimation in dynamic ocean environments. 
+    image: /assets/images/oat.png  
+    pubs:
+      - id: "jin2022machine"
+        label: "JASA 2022"
+      - id: "saha2025leveraging"
+        label: "JASA-EL 2025"
+
+  - title: Thermal Modeling for Chip Design
+    desc: >
+      Aggressive technology scaling has led to high power and heat densities in modern semiconductor chips, making accurate thermal analysis essential for ensuring performance, reliability, and operational lifetime. However, high-fidelity thermal simulations using conventional numerical modeling techniques are computationally expensive and often impractical for iterative design and optimization.
+
+      This line of research focuses on developing fast and data-efficient AI-driven frameworks for multi-scale thermal simulation of integrated circuits. The goal is to enable thermal modeling across multiple levels of abstraction, ranging from chip-level (millimeter scale) to device- and transistor-level (nanometer scale). By combining data-driven learning with numerical methods, the proposed approaches achieve substantial computational acceleration while maintaining accuracy, demonstrating speedups exceeding 2000× across different abstraction levels.
+    image: /assets/images/thermal.png
+    pubs:
+      - id: "choi2024fast"
+        label: "IEDM 2024"    
+url:
+---

@@ -1,0 +1,15 @@
+---
+title: ""
+page-layout: full
+
+listing:
+  id: pubs
+  template: _ejs/publications.ejs
+  contents: papers_qmd/*.qmd
+  sort: "year desc"                      
+  page-size: 1000
+  fields: [title, publication, author_before, author_after, url_source, url_pdf, url_code, year, acronym, note]
+---
+
+<h1 class="page-title">Publications</h1>
+

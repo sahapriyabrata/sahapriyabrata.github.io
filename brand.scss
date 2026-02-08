@@ -1,0 +1,109 @@
+/*-- scss:uses --*/
+@use "sass:color";
+
+/*-- scss:defaults --*/
+/* --- NEW FONT DEFINITIONS --- */
+$font-family-sans-serif: 'Lato', sans-serif !default; // For body text (Lato)
+$font-family-serif: 'Libre Baskerville', serif !default;       // For headings (Petrona)
+
+/* Apply the variables to the global SCSS */
+$body-font: $font-family-sans-serif;
+$heading-font: $font-family-serif;
+/* --- END NEW FONT DEFINITIONS --- */
+
+/* Brand palette */
+$primary: #783216;          // links, primary buttons, navbar
+$secondary: #153580; //#c13d09;        // accent
+$body-bg: #e6e3dd; //#dce1e6; //#dbdddd; //#dde5e7;          // page background
+$body-color: #1f2937;       // main text color
+
+/* --- PROFILE BOX COLORS --- */
+$profile-box-bg: #e0dedc;            // Background color for the profile box
+$profile-box-border: #e0dedc;         // Border color for the profile box
+$profile-icon-color: $primary; //#5f4c3e;             
+$profile-icon-hover: $secondary;          
+
+/* Links */
+$link-color: $primary;
+/* Use Sass color module to darken hover color safely */
+$link-hover-color: color.scale($primary, $lightness: -12%);
+
+/* Navbar */
+$navbar-bg: $body-bg;
+$navbar-fg: $secondary; //#153580;
+
+/* Optional surface tweaks */
+$card-bg: #ffffff;
+$card-border-color: rgba(0,0,0,0.1);
+
+/*-- scss:rules --*/
+
+/* Apply the variables to the profile box elements */
+.profile-box {
+  background-color: $profile-box-bg !important;
+  border-color: $profile-box-border !important;
+}
+
+// .social-links a {
+//   color: $profile-icon-color !important;
+// }
+// .social-links a:hover {
+//   color: $profile-icon-hover !important;
+// }
+
+.social-links a {
+  /* Box Properties */
+  display: inline-block; 
+  // padding: 1px 4px; 
+  min-width: 2.5rem;
+  border-radius: 5px; 
+  align-items: center;
+  justify-content: center;
+  
+  /* Colors from CSS Variables */
+  border: 1px solid $primary; 
+  color: $primary; 
+}
+
+.social-links a:hover {
+  /* Uses CSS Variable for fill color */
+  background-color: $link-hover-color; 
+  color: white; 
+  text-decoration: none; 
+}
+
+.navbar-brand {
+    /* Example: Use your primary brand color */
+    color: $primary !important; 
+    font-weight: 500 !important; 
+    font-family: $heading-font !important;
+}
+
+// .navbar .nav-link {
+//     transition: color 0.2s ease-in-out;
+// }
+// .navbar .nav-link:hover {
+//     text-decoration: underline;
+//     text-decoration-color: $link-color;
+//     text-underline-offset: 4px; /* Lift the underline off the text */
+// }  
+
+
+/* --- START CSS VARIABLE DEFINITIONS for LISTING STYLES (LIGHT MODE) --- */
+:root {
+  /* Colors */
+  --color-primary: #{$primary};
+  --color-link-hover: #{$link-hover-color};
+  --color-card-bg: #{$card-bg};
+  --color-card-border: #{$card-border-color};
+  --color-link: #{$secondary}; //#{$navbar-fg};
+  
+  /* Fonts */
+  --font-heading: #{$heading-font};
+  --font-body: #{$body-font};
+  
+  /* Neutral Color for Venue/Author */
+  --color-neutral-text: #555;
+  --color-border-line: rgba(0,0,0,0.25);
+}
+/* --- END CSS VARIABLE DEFINITIONS --- */

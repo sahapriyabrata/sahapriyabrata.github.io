@@ -1,0 +1,10 @@
+---
+title: "Machine Learning Approaches for Ray-Based Ocean Acoustic Tomography"
+author_before: ["Jihui Jin"]
+author_after: [", Nicholas C. Durofchalk, Saibal Mukhopadhyay, Justin Romberg, and Karim G. Sabra"]
+year: 2022
+type: journal
+publication: "Journal of the Acoustical Society of America"
+acronym: "JASA"
+url_source: "https://asa.scitation.org/doi/abs/10.0016498"
+---

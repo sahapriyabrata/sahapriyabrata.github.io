@@ -1,0 +1,10 @@
+---
+title: "Cross-Layer Noise Analysis in Smart Digital Pixel Sensors With Integrated Deep Neural Network"
+author_before: ["Minah Lee, Mandovi Mukherjee, Edward Lee"]
+author_after: [", Mohammad Faisal Amir, Taesik Na, and Saibal Mukhopadhyay"]
+year: 2020
+type: journal
+publication: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
+acronym: "JETCAS"
+url_source: "https://doi.org/10.1109/JETCAS.2020.3031869"
+---

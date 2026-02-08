@@ -1,0 +1,113 @@
+```{=html}
+<style>
+    #pub-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    </style>
+    
+<div class="filters" id="pub-filters">
+    <button type="button" data-filter="all" class="active" aria-pressed="true">All</button>
+    <button type="button" data-filter="journal" aria-pressed="false">Journals</button>
+    <button type="button" data-filter="conference" aria-pressed="false">Conferences</button>
+</div>
+  
+  <ul id="pub-list" class="list quarto-listing-custom">
+    <%
+      // If you don't store a `type` field, guess one from venue/acronym.
+      function inferType(it) {
+        const t = (it.type || it.pubtype || it.category || "").toString().toLowerCase().trim();
+        if (t === "journal" || t === "conference") return t;
+  
+        const venue = (it.publication || "").toLowerCase();
+        const acro  = (it.acronym || "").toLowerCase();
+        const journalish = /journal|transactions|trans\.|letters|magazine|revista|revue/.test(venue);
+        if (journalish) return "journal";
+        if (acro) return "conference";
+        return "conference"; // safe default
+      }
+    %>
+  
+    <% for (const item of items) {
+         const ptype = inferType(item);
+    %>
+      <li <%= metadataAttrs(item) %> class="pub" data-type="<%- ptype %>">
+        <!-- <div class="pub-entry-wrap"> -->
+        <%
+          // filename without extension
+          const fileId = item.filename.replace('.qmd', '');
+        %>
+        
+        <div class="pub-entry-wrap" id="<%- fileId %>">
+          
+  
+          <div class="pub-citation-col">
+            <div class="listing-title"><%- item.title %></div>
+  
+            <div class="listing-author">
+              <% if (item.author_before) { %><%- item.author_before %>, <% } %>
+              <strong class="myName">Priyabrata Saha</strong><% if (item.author_after) { %><%- item.author_after %><% } %>
+            </div>
+  
+            <div class="listing-venue">
+              <% if (item.publication) { %>
+                <span class="pub-journal"><i><%- item.publication %></i></span>
+              <% } %>
+              <% if (item.acronym) { %>
+                &nbsp;(<strong class="pub-acronym"><%- item.acronym %></strong>)<% if (!item.note) { %>,<% } %>
+              <% } %>
+              <% if (item.note) { %>
+                &nbsp;[<strong class="pub-note"><%- item.note %></strong>],
+              <% } %>
+              <% if (item.year) { %>
+                <span class="pub-year"><%- item.year %></span>
+              <% } %>
+            </div>
+          </div>
+  
+          <div class="pub-links-col">
+            <div class="listing-metadata-links">
+              <% if (item.url_source) { %>
+                <span class="pub-link"><a href="<%- item.url_source %>" target="_blank" rel="noopener noreferrer">URL</a></span>
+              <% } %>
+              <% if (item.url_pdf) { %>
+                <span class="pub-link"><a href="<%- item.url_pdf %>" target="_blank" rel="noopener noreferrer">PDF</a></span>
+              <% } %>
+              <% if (item.url_code) { %>
+                <span class="pub-link"><a href="<%- item.url_code %>" target="_blank" rel="noopener noreferrer">Code</a></span>
+              <% } %>
+            </div>
+          </div>
+  
+        </div>
+      </li>
+    <% } %>
+  </ul>
+  
+  <script>
+  (function () {
+    const btns = document.querySelectorAll('#pub-filters [data-filter]');
+    const items = document.querySelectorAll('#pub-list .pub');
+  
+    function setActive(btn) {
+      btns.forEach(b => {
+        const active = b === btn;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+    }
+  
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const f = btn.dataset.filter;
+        setActive(btn);
+        items.forEach(li => {
+          li.style.display = (f === 'all' || li.dataset.type === f) ? '' : 'none';
+        });
+      });
+    });
+  })();
+  </script>  
+
+```

@@ -1,0 +1,47 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.columns .hero-wrap}
+::: {.column width="50%"}
+
+![](assets/images/profile_photo.png){.profile-photo alt="Profile photo"}
+
+<div class="social-links">
+  <a href="mailto:priyabratasaha@gatech.com" aria-label="Email">
+    <i class="bi bi-envelope-fill"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/priyabratasaha" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  <a href="https://scholar.google.com/citations?user=jhzXDhoAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://github.com/sahapriyabrata" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+</div>
+
+:::
+
+::: {.column width="50%"}
+
+
+
+<h2 class="hero-name">Priyabrata Saha</h2>
+
+<div class="about">
+
+<p>
+I am a Research Scientist at <a href="https://www.rockwellautomation.com/en-us.html" target="_blank" rel="noopener">Rockwell Automation</a>, Austin, TX, where I work on integrating vision and control to advance industrial automation, leveraging generative AI and foundation models. Prior to this, I was a Postdoctoral Fellow at 
+<a href="https://www.gatech.edu" target="_blank" rel="noopener">Georgia Tech</a>.
+</p>
+
+<p>
+I received my Ph.D. in Electrical and Computer Engineering from <a href="https://www.gatech.edu" target="_blank" rel="noopener">Georgia Tech</a>
+in 2023, and my Bachelor’s and Master’s degrees in Electronics and Electrical Communication Engineering from <a href="https://www.iitkgp.ac.in" target="_blank" rel="noopener">IIT Kharagpur</a> in 2015. 
+At Georgia Tech, I conducted research under <a href="https://greenlab.ece.gatech.edu/members/professor/" target="_blank" rel="noopener">Prof. Saibal Mukhopadhyay</a> on developing machine learning techniques for modeling and control of dynamical systems.
+
+My research interests lie broadly in applied machine learning, with applications in scientific computing, robotics, and control. I work on developing ML models for complex physical processes, learning-based optimization and control, and intelligent sensing in autonomous systems.
+</p>
+
+</div>
+
+
+:::
+:::

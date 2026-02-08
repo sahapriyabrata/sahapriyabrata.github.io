@@ -1,0 +1,10 @@
+---
+title: "Uncertainty Characterization in Active Sensor Systems with DNN-based Feedback Control"
+author_before: ["Burhan Ahmad Mudassar"]
+author_after: [", and Saibal Mukhopadhyay"]
+year: 2020
+type: conference
+publication: "IEEE Sensors"
+acronym: "SENSORS-C"
+url_source: "https://doi.org/10.1109/SENSORS47125.2020.9278702"
+---

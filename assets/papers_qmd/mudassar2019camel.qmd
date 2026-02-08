@@ -1,0 +1,10 @@
+---
+title: "CAMEL: An Adaptive Camera with Embedded Machine Learning-Based Sensor Parameter Control"
+author_before: ["Burhan Ahmad Mudassar"]
+author_after: [", Yun Long, Mohammad Faisal Amir, Evan Gebhardt, Taesik Na, Jong Hwan Ko, Marilyn Wolf, and Saibal Mukhopadhyay"]
+year: 2019
+type: journal
+publication: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
+acronym: "JETCAS"
+url_source: "https://doi.org/10.1109/JETCAS.2019.2935207"
+---

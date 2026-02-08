@@ -1,0 +1,10 @@
+---
+title: "Task-driven RGB-Lidar Fusion for Object Tracking in Resource-Efficient Autonomous System"
+author_before: ["Kruttidipta Samal, Hemant Kumawat"]
+author_after: [", Marilyn Wolf, and Saibal Mukhopadhyay"]
+year: 2021
+type: journal
+publication: "IEEE Transactions on Intelligent Vehicles"
+acronym: "ITIV"
+url_source: "https://ieeexplore.ieee.org/document/9448387"
+---

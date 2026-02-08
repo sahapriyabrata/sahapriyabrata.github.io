@@ -1,0 +1,12 @@
+---
+title: "Online Relational Inference for Evolving Multi-agent Interacting System"
+author_before: ["Beomseok Kang"]
+author_after: [", Sudarshan Sharma, Biswadeep Chakraborty, and Saibal Mukhopadhyay"]
+year: 2024
+type: conference
+publication: "Advances in Neural Information Processing Systems"
+acronym: "NeurIPS"
+url_source: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/12d7ba753894ed348904df1bf0ce02ec-Abstract-Conference.html"
+url_pdf: "https://proceedings.neurips.cc/paper_files/paper/2024/file/12d7ba753894ed348904df1bf0ce02ec-Paper-Conference.pdf"
+url_code: "https://github.com/beomseokg/ORI"
+---

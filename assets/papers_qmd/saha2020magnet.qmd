@@ -1,0 +1,11 @@
+---
+title: "MagNet: Discovering Multi-agent Interaction Dynamics using Neural Network"
+author_after: [", Arslan Ali, Burhan Ahmad Mudassar, Yun Long, and Saibal Mukhopadhyay"]
+year: 2020
+type: conference
+publication: "IEEE International Conference on Robotics and Automation"
+acronym: "ICRA"
+url_source: "https://doi.org/10.1109/ICRA40945.2020.9196846"
+url_pdf: "https://arxiv.org/pdf/2001.09001"
+url_code: "https://github.com/sahapriyabrata/MagNet"
+---

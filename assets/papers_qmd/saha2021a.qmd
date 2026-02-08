@@ -1,0 +1,10 @@
+---
+title: "A Deep Learning Approach for Predicting Spatiotemporal Dynamics from Sparsely Observed Data"
+author_after: [" and Saibal Mukhopadhyay"]
+year: 2021
+type: journal
+publication: "IEEE Access"
+acronym: "ACCESS"
+url_source: "https://ieeexplore.ieee.org/document/9416427"
+url_pdf: "https://arxiv.org/pdf/2011.14965"
+---

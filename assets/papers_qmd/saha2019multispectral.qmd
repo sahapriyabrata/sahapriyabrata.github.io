@@ -1,0 +1,9 @@
+---
+title: "Multispectral Information Fusion with Reinforcement Learning for Object Tracking in IoT Edge Devices"
+author_after: [" and Saibal Mukhopadhyay"]
+year: 2019
+type: journal
+publication: "IEEE Sensors Journal"
+acronym: "SENSORS-J"
+url_source: "https://doi.org/10.1109/JSEN.2019.2962834"
+---

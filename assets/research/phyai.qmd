@@ -1,0 +1,38 @@
+---
+title: "Physical AI for Perception and Control in Autonomous Systems"
+order: 2
+image: /assets/images/phyai.png
+summary: >
+  This research thrust focuses on developing physical AI frameworks that integrate multimodal perception with data-driven control for autonomous systems operating in real-world environments. Such systems must interpret high-dimensional sensory inputs and make control decisions under uncertainty, limited resources, and changing conditions, where treating perception and control as isolated components often leads to inefficiencies and fragile behavior.
+
+  The central vision of this thrust is to establish a closed-loop learning paradigm in which sensing and control co-evolve. This unified framework enables adaptive sensing, control, and performance optimization to be addressed jointly, allowing autonomous systems to reason about what to sense and how to act in support of robust autonomy across robotic and cyber-physical systems.
+subthrusts:
+  - title: Intelligent Sensing for Autonomous Systems
+    desc: >
+      Modern autonomous systems, such as robots and vehicles, rely on multiple sensors across different modalities to perceive and interact with their environment. While multi-modal sensing enables rich perception, operating all sensors continuously is often energy-inefficient and impractical for resource-constrained platforms. An important challenge is therefore to intelligently control sensing configurations to balance perception quality with computational and energy costs.
+
+      This line of research focuses on sensor control strategies that adapt sensing actions based on task requirements and system constraints. By formulating sensing as a decision-making problem tied to high-level objectives such as detection and tracking, the developed approaches aim to avoid redundant information capture while maintaining effective perception. Both rule-based and learning-based methods are explored to enable adaptive, task-aware sensing in autonomous systems.
+    image: /assets/images/vision.png
+    pubs:
+      - id: "saha2019multispectral"
+        label: "SENSORS-J 2019"
+      - id: "mudassar2019camel"
+        label: "JETCAS 2019"  
+      - id: "mudassar2021a"
+        label: "SENSORS 2021"  
+      - id: "samal2021taskdriven"
+        label: "ITIV 2021"     
+  - title: Learning for Control
+    desc: >
+      Designing controllers for complex dynamical systems is traditionally challenging, often requiring accurate models and substantial system-specific expertise. The need for automatic synthesis of control policies for unknown or partially known systems has therefore long been recognized. While data-driven learning approaches, most notably reinforcement learning, offer model-free solutions, they often suffer from high sample complexity and safety concerns that limit their practicality in real-world systems.
+
+      This line of research focuses on integrating principles from dynamical systems and control theory with the expressive power of neural networks to enable sample-efficient and safe learning for control. These approaches aim to bridge the gap between model-based control and data-driven learning, enabling reliable control of complex nonlinear systems ranging from autonomous robots to fluid flows.
+    image: /assets/images/control.png
+    pubs:
+      - id: "saha2021neural"
+        label: "RA-L 2021"
+      - id: "saha2023learning"
+        label: "RA-L 2023" 
+      - id: "saha2024bridging"
+        label: "CDC 2024"    
+---

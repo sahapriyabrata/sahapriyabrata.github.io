@@ -1,0 +1,56 @@
+```{=html}
+
+<% for (const item of items) { 
+  const subs = Array.isArray(item.subthrusts) ? item.subthrusts : [];
+%>
+<div class="research-entry-wrap">
+
+ <!-- Title -->
+ <div class="research-title"><%- item.title %></div>
+
+ <!-- Summary -->
+ <% if (item.summary) { %>
+   <p class="research-summary"><%- item.summary %></p>
+ <% } %>
+
+<!-- Full-width image -->
+<% if (item.image) { %>
+  <div class="research-image-wrap">
+    <img src="<%- item.image %>" alt="<%- item.title %>" class="research-image">
+  </div>
+<% } %>
+ 
+  <div class="research-subthrust-grid">
+    <% subs.forEach(st => { 
+          const pubs = Array.isArray(st.pubs) ? st.pubs : [];
+    %>
+      <div class="subthrust-card">
+        <div class="subthrust-title"><%- st.title %></div>
+        
+        <% if (st.image) { %>
+          <div class="research-image-wrap">
+            <img src="<%- st.image %>" alt="<%- st.title %>" class="research-image">
+          </div>
+        <% } %>
+
+        <p class="subthrust-desc"><%- st.desc %></p>
+  
+        <% if (pubs.length) { %>
+          <p class="subthrust-pubs-line">
+            <strong>Related publications:</strong>
+            <% pubs.forEach((p, idx) => { 
+                 const pid = p.id ? String(p.id) : '';
+                 if (!pid) return;
+            %>
+              <a href="publications.html#<%- pid %>"><%- p.label %></a><% if (idx < pubs.length - 1) { %>, <% } %>
+            <% }); %>
+          </p>
+        <% } %>            
+      </div>
+    <% }); %>
+  </div>       
+
+</div>
+<% } %>
+ 
+```  

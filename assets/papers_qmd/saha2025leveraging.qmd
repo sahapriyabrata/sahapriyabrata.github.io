@@ -1,0 +1,11 @@
+---
+title: "Leveraging Sound Speed Dynamics in a Generative Deep Learning Framework for Ray-based Ocean Acoustic Tomography"
+author_after: [", Richard X. Touret, Etienne Ollivier, Jihui Jin, Matthew McKinley, Justin Romberg, and Karim G. Sabra"]
+year: 2025
+type: journal
+publication: "JASA Express Letters"
+acronym: "JASA-EL" 
+note: "Editor’s Pick"
+url_source: "https://pubs.aip.org/asa/jel/article/5/4/040801/3341885"
+url_pdf: "https://pubs.aip.org/asa/jel/article-pdf/doi/10.1121/10.0036312/20466405/040801_1_10.0036312.pdf"
+---

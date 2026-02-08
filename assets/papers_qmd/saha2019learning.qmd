@@ -1,0 +1,10 @@
+---
+title: "Learning Evolution of Coupled Dynamical Systems with Integrated Data-driven and Model-based Approach"
+author_after: [", Arslan Ali, Burhan Ahmad Mudassar, Yun Long, and Saibal Mukhopadhyay"]
+year: 2019
+type: workshop
+publication: "2nd NeurIPS Workshop on Machine Learning and the Physical Sciences"
+acronym: "MLPS"
+url_source: "https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_82.pdf"
+url_pdf: "https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_82.pdf"
+---

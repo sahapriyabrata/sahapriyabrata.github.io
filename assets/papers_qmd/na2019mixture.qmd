@@ -1,0 +1,11 @@
+---
+title: "Mixture of Pre-Processing Experts Model for Noise Robust Deep Learning on Resource Constrained Platforms"
+author_before: ["Taesik Na, Minah Lee, Burhan Ahmad Mudassar"]
+author_after: [", Jong Hwan Ko, and Saibal Mukhopadhyay"]
+year: 2019
+type: conference
+publication: "International Joint Conference on Neural Networks"
+acronym: "IJCNN"
+url_source: "https://doi.org/10.1109/IJCNN.2019.8851932"
+url_pdf: "https://arxiv.org/pdf/1904.12426"
+---

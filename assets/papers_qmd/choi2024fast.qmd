@@ -1,0 +1,10 @@
+---
+title: "Fast Prediction of Spatio-Temporal Temperature Profiles in FinFET Arrays via Numerical and Machine-Learning Approaches"
+author_before: ["Mingeun Choi, Rinku Dutta"]
+author_after: [", Mayur P. Singh, Saibal Mukhopadhyay, Suman Datta, and Satish Kumar"]
+year: 2024
+type: conference
+publication: "IEEE International Electron Devices Meeting"
+acronym: "IEDM"
+url_source: "https://ieeexplore.ieee.org/document/10873584"
+---

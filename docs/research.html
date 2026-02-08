@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4b7f8b55cbeb0a4d4d0f59cc059376fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-758e864d146ed0ff240ed29896d68dcb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4b7f8b55cbeb0a4d4d0f59cc059376fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cfbb39380bf0dfe25a07be9c956c7ec5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5c212ff4fdb04fe052e3e552c4dc2b5c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cfbb39380bf0dfe25a07be9c956c7ec5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,6 +103,15 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8T03CZESVL"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8T03CZESVL', { 'anonymize_ip': true});
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Libre+Baskerville:wght@400;700&amp;display=swap" rel="stylesheet">
@@ -369,18 +378,144 @@ Research
 <div class="research-entry-wrap">
 
  <!-- Title -->
- <div class="research-title">Physical AI for Perception and Control in Autonomous Systems</div>
+ <div class="research-title">Scientific Machine Learning for Computational Modeling and Inference</div>
 
  <!-- Summary -->
  
-   <p class="research-summary">Learning predictive models that integrate sensing, estimation, and control for closed-loop autonomy in dynamic environments.
+   <p class="research-summary">This research thrust focuses on developing scientific machine learning frameworks for modeling, simulation, and inference in complex dynamical processes. Many scientific and engineering problems involve dynamical systems governed by known physical laws, unknown parameters, and limited or indirect observations. These problems naturally arise as coupled forward and inverse tasks, where predicting system evolution and inferring hidden states or parameters must be addressed jointly.
+The central vision of this thrust is to integrate data-driven learning with scientific laws and numerical methods, enabling efficient solutions to both forward prediction and inverse inference problems. By embedding inductive biases from governing equations, system structure, and established numerical schemes into learning models, this work aims to achieve accurate, data-efficient, and computationally scalable modeling across a wide range of dynamical systems.
 </p>
  
 
 <!-- Full-width image -->
 
   <div class="research-image-wrap">
-    <img src="./assets/images/logo.png" alt="Physical AI for Perception and Control in Autonomous Systems" class="research-image">
+    <img src="./assets/images/sciml.png" alt="Scientific Machine Learning for Computational Modeling and Inference" class="research-image">
+  </div>
+
+ 
+  <div class="research-subthrust-grid">
+    
+      <div class="subthrust-card">
+        <div class="subthrust-title">Modeling Spatiotemporal Dynamical Systems</div>
+        
+        
+          <div class="research-image-wrap">
+            <img src="./assets/images/spatiotemporal.png" alt="Modeling Spatiotemporal Dynamical Systems" class="research-image">
+          </div>
+        
+
+        <p class="subthrust-desc">Many real-world processes, such as climate and ocean dynamics, geophysical processes, and other environmental phenomena, evolve over space and time and exhibit complex dynamics. Understanding the behavior of such dynamical processes is a fundamental problem in science and engineering. This line of research develops learning-based frameworks for modeling and predicting spatiotemporal dynamical systems by integrating PDE-based models and numerical methods with deep neural networks.
+A central theme is addressing scenarios with limited observations, including partially masked dynamics and sparsely or irregularly sampled data sites. Across multiple studies, these methods have been evaluated on synthetic as well as real-world datasets, including atmospheric temperature and sea-surface temperature, demonstrating reliable and efficient predictive performance.
+</p>
+  
+        
+          <p class="subthrust-pubs-line">
+            <strong>Related publications:</strong>
+            
+              <a href="publications.html#saha2022unravelled">RSTA 2022</a>, 
+            
+              <a href="publications.html#saha2021a">ACCESS 2021</a>, 
+            
+              <a href="publications.html#saha2021physicsincorporated">NEUNET 2021</a>
+            
+          </p>
+                    
+      </div>
+    
+      <div class="subthrust-card">
+        <div class="subthrust-title">Modeling Multi-Agent Dynamics</div>
+        
+        
+          <div class="research-image-wrap">
+            <img src="./assets/images/multiagent.png" alt="Modeling Multi-Agent Dynamics" class="research-image">
+          </div>
+        
+
+        <p class="subthrust-desc">Multi-agent systems are prevalent in both natural and engineered settings, ranging from swarms and social systems to networks of robots and autonomous vehicles. Understanding and predicting their behavior from sensory observations is a fundamental challenge. This line of research develops learning-based frameworks for modeling multi-agent dynamics by inferring hidden interactions directly from observed trajectories.
+A central theme of this research is enabling rapid adaptation with limited data when interaction parameters or the nature of interactions change over time. This is achieved by either imposing structure on deep neural networks based on physics- or nature-inspired interaction models, or by explicitly learning interaction graphs among agents from observations. By incorporating inductive biases about agent interactions or inferring them online, the resulting models can efficiently adapt to evolving dynamics and accurately capture changes in collective behavior.
+</p>
+  
+        
+          <p class="subthrust-pubs-line">
+            <strong>Related publications:</strong>
+            
+              <a href="publications.html#kang2024online">NeurIPS 2024</a>, 
+            
+              <a href="publications.html#saha2020magnet">ICRA 2020</a>
+            
+          </p>
+                    
+      </div>
+    
+      <div class="subthrust-card">
+        <div class="subthrust-title">Ocean Acoustic Tomography</div>
+        
+        
+          <div class="research-image-wrap">
+            <img src="./assets/images/oat.png" alt="Ocean Acoustic Tomography" class="research-image">
+          </div>
+        
+
+        <p class="subthrust-desc">Highly complex ocean dynamics pose significant challenges in underwater acoustics, particularly for reconstructing the spatiotemporal variation of the ocean sound speed profile (SSP) from acoustic measurements between source–receiver pairs. This problem is naturally formulated as a dynamic parameter inversion task associated with a forward acoustic propagation model and is traditionally addressed using linearized, ray-based inversion techniques.
+This line of research investigates the role of machine learning in ocean acoustic tomography, with particular emphasis on addressing two key challenges: limited availability of empirical data and the nonstationary evolution of SSP dynamics. By exploring both direct learning of inverse mappings and the integration of data-driven dynamical models as regularizers within conventional inversion frameworks, this work aims to improve robustness, accuracy, and adaptability of SSP estimation in dynamic ocean environments.
+</p>
+  
+        
+          <p class="subthrust-pubs-line">
+            <strong>Related publications:</strong>
+            
+              <a href="publications.html#jin2022machine">JASA 2022</a>, 
+            
+              <a href="publications.html#saha2025leveraging">JASA-EL 2025</a>
+            
+          </p>
+                    
+      </div>
+    
+      <div class="subthrust-card">
+        <div class="subthrust-title">Thermal Modeling for Chip Design</div>
+        
+        
+          <div class="research-image-wrap">
+            <img src="./assets/images/thermal.png" alt="Thermal Modeling for Chip Design" class="research-image">
+          </div>
+        
+
+        <p class="subthrust-desc">Aggressive technology scaling has led to high power and heat densities in modern semiconductor chips, making accurate thermal analysis essential for ensuring performance, reliability, and operational lifetime. However, high-fidelity thermal simulations using conventional numerical modeling techniques are computationally expensive and often impractical for iterative design and optimization.
+This line of research focuses on developing fast and data-efficient AI-driven frameworks for multi-scale thermal simulation of integrated circuits. The goal is to enable thermal modeling across multiple levels of abstraction, ranging from chip-level (millimeter scale) to device- and transistor-level (nanometer scale). By combining data-driven learning with numerical methods, the proposed approaches achieve substantial computational acceleration while maintaining accuracy, demonstrating speedups exceeding 2000× across different abstraction levels.
+</p>
+  
+        
+          <p class="subthrust-pubs-line">
+            <strong>Related publications:</strong>
+            
+              <a href="publications.html#choi2024fast">IEDM 2024</a>
+            
+          </p>
+                    
+      </div>
+    
+  </div>       
+
+</div>
+
+<div class="research-entry-wrap">
+
+ <!-- Title -->
+ <div class="research-title">Physical AI for Perception and Control in Autonomous Systems</div>
+
+ <!-- Summary -->
+ 
+   <p class="research-summary">This research thrust focuses on developing physical AI frameworks that integrate multimodal perception with data-driven control for autonomous systems operating in real-world environments. Such systems must interpret high-dimensional sensory inputs and make control decisions under uncertainty, limited resources, and changing conditions, where treating perception and control as isolated components often leads to inefficiencies and fragile behavior.
+The central vision of this thrust is to establish a closed-loop learning paradigm in which sensing and control co-evolve. This unified framework enables adaptive sensing, control, and performance optimization to be addressed jointly, allowing autonomous systems to reason about what to sense and how to act in support of robust autonomy across robotic and cyber-physical systems.
+</p>
+ 
+
+<!-- Full-width image -->
+
+  <div class="research-image-wrap">
+    <img src="./assets/images/phyai.png" alt="Physical AI for Perception and Control in Autonomous Systems" class="research-image">
   </div>
 
  
@@ -388,7 +523,15 @@ Research
     
       <div class="subthrust-card">
         <div class="subthrust-title">Intelligent Sensing for Autonomous Systems</div>
-        <p class="subthrust-desc">Developing representation learning frameworks that align modalities and extract cross-domain signal correlations.
+        
+        
+          <div class="research-image-wrap">
+            <img src="./assets/images/vision.png" alt="Intelligent Sensing for Autonomous Systems" class="research-image">
+          </div>
+        
+
+        <p class="subthrust-desc">Modern autonomous systems, such as robots and vehicles, rely on multiple sensors across different modalities to perceive and interact with their environment. While multi-modal sensing enables rich perception, operating all sensors continuously is often energy-inefficient and impractical for resource-constrained platforms. An important challenge is therefore to intelligently control sensing configurations to balance perception quality with computational and energy costs.
+This line of research focuses on sensor control strategies that adapt sensing actions based on task requirements and system constraints. By formulating sensing as a decision-making problem tied to high-level objectives such as detection and tracking, the developed approaches aim to avoid redundant information capture while maintaining effective perception. Both rule-based and learning-based methods are explored to enable adaptive, task-aware sensing in autonomous systems.
 </p>
   
         
@@ -409,7 +552,16 @@ Research
     
       <div class="subthrust-card">
         <div class="subthrust-title">Learning for Control</div>
-        <p class="subthrust-desc"></p>
+        
+        
+          <div class="research-image-wrap">
+            <img src="./assets/images/control.png" alt="Learning for Control" class="research-image">
+          </div>
+        
+
+        <p class="subthrust-desc">Designing controllers for complex dynamical systems is traditionally challenging, often requiring accurate models and substantial system-specific expertise. The need for automatic synthesis of control policies for unknown or partially known systems has therefore long been recognized. While data-driven learning approaches, most notably reinforcement learning, offer model-free solutions, they often suffer from high sample complexity and safety concerns that limit their practicality in real-world systems.
+This line of research focuses on integrating principles from dynamical systems and control theory with the expressive power of neural networks to enable sample-efficient and safe learning for control. These approaches aim to bridge the gap between model-based control and data-driven learning, enabling reliable control of complex nonlinear systems ranging from autonomous robots to fluid flows.
+</p>
   
         
           <p class="subthrust-pubs-line">
@@ -420,95 +572,6 @@ Research
               <a href="publications.html#saha2023learning">RA-L 2023</a>, 
             
               <a href="publications.html#saha2024bridging">CDC 2024</a>
-            
-          </p>
-                    
-      </div>
-    
-  </div>       
-
-</div>
-
-<div class="research-entry-wrap">
-
- <!-- Title -->
- <div class="research-title">Scientific Machine Learning for Computational Modeling and Inference</div>
-
- <!-- Summary -->
- 
-   <p class="research-summary">Operator-based neural architectures for multi-scale PDEs with fast surrogates and adaptive error control.
-</p>
- 
-
-<!-- Full-width image -->
-
-  <div class="research-image-wrap">
-    <img src="./assets/images/logo.png" alt="Scientific Machine Learning for Computational Modeling and Inference" class="research-image">
-  </div>
-
- 
-  <div class="research-subthrust-grid">
-    
-      <div class="subthrust-card">
-        <div class="subthrust-title">Modeling Spatiotemporal Dynamical Systems</div>
-        <p class="subthrust-desc"></p>
-  
-        
-          <p class="subthrust-pubs-line">
-            <strong>Related publications:</strong>
-            
-              <a href="publications.html#saha2022unravelled">RSTA 2022</a>, 
-            
-              <a href="publications.html#saha2021a">ACCESS 2021</a>, 
-            
-              <a href="publications.html#saha2021physicsincorporated">NEUNET 2021</a>
-            
-          </p>
-                    
-      </div>
-    
-      <div class="subthrust-card">
-        <div class="subthrust-title">Modeling Multi-Agent Dynamics</div>
-        <p class="subthrust-desc"></p>
-  
-        
-          <p class="subthrust-pubs-line">
-            <strong>Related publications:</strong>
-            
-              <a href="publications.html#kang2024online">NeurIPS 2024</a>, 
-            
-              <a href="publications.html#saha2020magnet">ICRA 2020</a>
-            
-          </p>
-                    
-      </div>
-    
-      <div class="subthrust-card">
-        <div class="subthrust-title">Ocean Acoustic Tomography</div>
-        <p class="subthrust-desc">Highly complex ocean dynamics poses several challenges in underwater acoustics. One such challenge is to reconstruct the spatiotemporal variation of ocean sound speed profile (SSP) from acoustic observations between source-receiver pairs. This problem can be formulated as a parameter inversion problem related to a dynamic forward model and is generally solved using linearized inversion of a ray-based model. We investigated the applicability of ML methods for this ocean acoustic tomography (OAT) problem. Two major challenges we faced for data-driven learning are limited empirical data and on-stationarity of SSP evolution. I approached these challenges by generating synthetic data utilizing prior knowledge of the SSP structure.
-</p>
-  
-        
-          <p class="subthrust-pubs-line">
-            <strong>Related publications:</strong>
-            
-              <a href="publications.html#jin2022machine">JASA 2022</a>, 
-            
-              <a href="publications.html#saha2025leveraging">JASA-EL 2025</a>
-            
-          </p>
-                    
-      </div>
-    
-      <div class="subthrust-card">
-        <div class="subthrust-title">Thermal Modeling for Chip Design</div>
-        <p class="subthrust-desc"></p>
-  
-        
-          <p class="subthrust-pubs-line">
-            <strong>Related publications:</strong>
-            
-              <a href="publications.html#choi2024fast">IEDM 2024</a>
             
           </p>
                     
@@ -940,6 +1003,19 @@ Research
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Priyabrata Saha · Made with <a href="https://quarto.org" target="_blank" rel="noopener" class="footer-quarto"> <img src="https://quarto.org/quarto.png" alt="Quarto"> </a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

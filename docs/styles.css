@@ -169,7 +169,7 @@ footer.footer .footer-quarto img {
   .navbar-brand {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1.5rem;
     max-width: calc(100% - 3rem); /* leave space for hamburger */
     overflow: hidden;
     max-height: 30px;

@@ -181,6 +181,14 @@ footer.footer .footer-quarto img {
 
 /* --- Mobile-only navbar fixes (desktop unchanged) --- */
 @media (max-width: 576px) {
+  .profile-box {
+    width: 80%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
   .navbar-brand img {
     height: 16px !important;
     width: auto;

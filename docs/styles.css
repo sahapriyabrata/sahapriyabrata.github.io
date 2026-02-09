@@ -189,6 +189,12 @@ footer.footer .footer-quarto img {
     display: block;
   }
 
+  .profile-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .navbar-brand img {
     height: 16px !important;
     width: auto;

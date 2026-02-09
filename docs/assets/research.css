@@ -93,12 +93,14 @@
 /* Responsive */
 @media (max-width: 576px) {
   .research-image {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
 
   .research-subthrust-grid {
-      grid-template-columns: 1fr;
-    }
+    grid-template-columns: 1fr !important;
   }
 }
+
 
 

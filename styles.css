@@ -204,9 +204,13 @@ footer.footer .footer-quarto img {
 
 /* Structural/layout behaviour (phones landscape + tablets) */
 @media (max-width: 768px) {
+  .columns.hero-wrap {
+    flex-direction: column;
+  }
+
   .profile-box {
     width: 80%;
-    max-width: 250px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     display: block;

@@ -94,5 +94,11 @@
 @media (max-width: 720px) {
   .research-image {
     max-width: 100%;
+    
+  .research-subthrust-grid {
+      grid-template-columns: 1fr;
+    }
   }
 }
+
+

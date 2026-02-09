@@ -50,22 +50,7 @@
 } 
 /* Removed: .social-links a:hover (handled by brand.scss) */
 
-/* --- Responsive Tweak --- */
-/* @media (max-width: 768px) { 
-  .columns.hero-wrap {
-    flex-direction: column;
-    gap: 2rem;
-  }
-  .profile-box {
-    width: 80%; 
-    max-width: 300px;
-    margin: 0 auto; 
-  }
-  .hero-name, .about {
-    text-align: center;
-  }
-} */
-
+/* --- Responsive Tweak for mobile view --- */
 @media (max-width: 768px) { 
   .columns.hero-wrap {
     flex-direction: column;

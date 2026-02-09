@@ -181,20 +181,6 @@ footer.footer .footer-quarto img {
 
 /* --- Mobile-only navbar fixes (desktop unchanged) --- */
 @media (max-width: 576px) {
-  .profile-box {
-    width: 80%;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  .profile-box img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .navbar-brand img {
     height: 16px !important;
     width: auto;
@@ -213,6 +199,23 @@ footer.footer .footer-quarto img {
 
   .navbar-toggler {
     margin-left: auto;
+  }
+}
+
+/* Structural/layout behaviour (phones landscape + tablets) */
+@media (max-width: 768px) {
+  .profile-box {
+    width: 80%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .profile-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

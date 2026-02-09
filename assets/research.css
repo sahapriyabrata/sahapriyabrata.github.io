@@ -91,10 +91,10 @@
 }
 
 /* Responsive */
-@media (max-width: 720px) {
+@media (max-width: 576px) {
   .research-image {
     max-width: 100%;
-    
+
   .research-subthrust-grid {
       grid-template-columns: 1fr;
     }

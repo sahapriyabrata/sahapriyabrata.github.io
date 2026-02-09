@@ -204,23 +204,35 @@ footer.footer .footer-quarto img {
 
 /* Structural/layout behaviour (phones landscape + tablets) */
 @media (max-width: 768px) {
+
+  /* Ensure this element is actually controlling layout */
   .columns.hero-wrap {
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;  /* centers children horizontally */
+    gap: 2rem;
   }
 
+  /* Make both "columns" full width when stacked */
+  .columns.hero-wrap > .column,
+  .columns.hero-wrap > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Center the profile container itself */
   .profile-box {
     width: 80%;
     max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    margin: 0 auto !important;
   }
 
+  /* Center the actual image */
   .profile-box img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto !important;
   }
 }
+
 
 

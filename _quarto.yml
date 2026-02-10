@@ -49,3 +49,4 @@ format:
       - assets/listing-styles.css
       - assets/research.css
     toc: false
+    prefer-html: false

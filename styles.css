@@ -98,6 +98,7 @@
   border-bottom: none; 
 }
 
+
 .about {
   font-size: 1.0rem;
   line-height: 1.6;
@@ -134,7 +135,7 @@
 /* Active (current page) link */
 .navbar .nav-link.active {
   color: var(--color-link);
-  /* text-decoration: underline; */
+  /* text-decoration: none; */
 }
 
 
@@ -233,6 +234,5 @@ footer.footer .footer-quarto img {
     margin: 0 auto !important;
   }
 }
-
 
 

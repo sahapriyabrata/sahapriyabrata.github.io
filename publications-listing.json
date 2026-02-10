@@ -1,0 +1,30 @@
+{
+  "listing": "/index.html",
+  "items": [
+    "/assets/papers_qmd/saha2025leveraging.html",
+    "/assets/papers_qmd/choi2024fast.html",
+    "/assets/papers_qmd/kang2024online.html",
+    "/assets/papers_qmd/saha2024bridging.html",
+    "/assets/papers_qmd/saha2023learning.html",
+    "/assets/papers_qmd/jin2022machine.html",
+    "/assets/papers_qmd/saha2022unravelled.html",
+    "/assets/papers_qmd/mudassar2021a.html",
+    "/assets/papers_qmd/saha2021a.html",
+    "/assets/papers_qmd/saha2021neural.html",
+    "/assets/papers_qmd/saha2021physicsincorporated.html",
+    "/assets/papers_qmd/samal2021taskdriven.html",
+    "/assets/papers_qmd/lee2020crosslayer.html",
+    "/assets/papers_qmd/lee2020effect.html",
+    "/assets/papers_qmd/mudassar2020uncertainty.html",
+    "/assets/papers_qmd/saha2020magnet.html",
+    "/assets/papers_qmd/she2020safednn.html",
+    "/assets/papers_qmd/long2019a.html",
+    "/assets/papers_qmd/mudassar2019a.html",
+    "/assets/papers_qmd/mudassar2019camel.html",
+    "/assets/papers_qmd/na2019mixture.html",
+    "/assets/papers_qmd/saha2019learning.html",
+    "/assets/papers_qmd/saha2019multispectral.html",
+    "/assets/papers_qmd/mukherjee2018fast.html",
+    "/assets/papers_qmd/saha2018adaptive.html"
+  ]
+}

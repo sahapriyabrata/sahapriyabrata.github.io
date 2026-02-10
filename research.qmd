@@ -10,10 +10,10 @@ listing:
     fields: [title, image, summary, subthrusts, url]   # fields we’ll render
     template: _ejs/research.ejs
 
-<!-- format:
+format:
   html:
     css:
-      - assets/research.css -->
+      - assets/research.css
 ---
 
 <h1 class="page-title">Research</h1>

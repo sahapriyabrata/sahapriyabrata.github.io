@@ -1,5 +1,5 @@
 ---
-title: "Cross-Layer Noise Analysis in Smart Digital Pixel Sensors With Integrated Deep Neural Network"
+title: "Cross-layer noise analysis in smart digital pixel sensors with integrated deep neural network"
 author_before: ["Minah Lee, Mandovi Mukherjee, Edward Lee"]
 author_after: [", Mohammad Faisal Amir, Taesik Na, and Saibal Mukhopadhyay"]
 year: 2020

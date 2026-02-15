@@ -1,5 +1,5 @@
 ---
-title: "A Task-Driven Feedback Imager with Uncertainty-Driven Hybrid Control"
+title: "A task-driven feedback imager with uncertainty-driven hybrid control"
 author_before: ["Burhan Ahmad Mudassar"]
 author_after: [", Marilyn Wolf, and Saibal Mukhopadhyay"]
 year: 2021

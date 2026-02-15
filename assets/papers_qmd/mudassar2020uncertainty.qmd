@@ -1,5 +1,5 @@
 ---
-title: "Uncertainty Characterization in Active Sensor Systems with DNN-based Feedback Control"
+title: "Uncertainty characterization in active sensor systems with DNN-based feedback control"
 author_before: ["Burhan Ahmad Mudassar"]
 author_after: [", and Saibal Mukhopadhyay"]
 year: 2020

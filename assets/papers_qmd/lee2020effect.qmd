@@ -1,5 +1,5 @@
 ---
-title: "Effect of Process Variations in Digital Pixel Circuits on the Accuracy of DNN-Based Smart Sensor"
+title: "Effect of process variations in digital pixel circuits on the accuracy of DNN-based smart sensor"
 author_before: ["Minah Lee, Mandovi Mukherjee"]
 author_after: [", Mohammad Faisal Amir, Taesik Na, and Saibal Mukhopadhyay"]
 year: 2020

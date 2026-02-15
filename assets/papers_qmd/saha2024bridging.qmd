@@ -1,5 +1,5 @@
 ---
-title: "Bridging Autoencoders and Dynamic Mode Decomposition for Reduced-order Modeling and Control of PDEs"
+title: "Bridging autoencoders and dynamic mode decomposition for reduced-order modeling and control of PDEs"
 author_after: [" and Saibal Mukhopadhyay"]
 year: 2024
 type: conference

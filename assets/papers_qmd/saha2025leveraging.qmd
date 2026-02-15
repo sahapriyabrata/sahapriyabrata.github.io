@@ -1,5 +1,5 @@
 ---
-title: "Leveraging Sound Speed Dynamics in a Generative Deep Learning Framework for Ray-based Ocean Acoustic Tomography"
+title: "Leveraging sound speed dynamics in a generative deep learning framework for ray-based ocean acoustic tomography"
 author_after: [", Richard X. Touret, Etienne Ollivier, Jihui Jin, Matthew McKinley, Justin Romberg, and Karim G. Sabra"]
 year: 2025
 type: journal

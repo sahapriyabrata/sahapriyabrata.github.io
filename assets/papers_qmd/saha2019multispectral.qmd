@@ -1,5 +1,5 @@
 ---
-title: "Multispectral Information Fusion with Reinforcement Learning for Object Tracking in IoT Edge Devices"
+title: "Multispectral information fusion with reinforcement learning for object tracking in IoT edge devices"
 author_after: [" and Saibal Mukhopadhyay"]
 year: 2019
 type: journal

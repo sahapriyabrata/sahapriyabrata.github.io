@@ -1,5 +1,5 @@
 ---
-title: "Physics-Incorporated Convolutional Recurrent Neural Networks for Source Identification and Forecasting of Dynamical Systems"
+title: "Physics-incorporated convolutional recurrent neural networks for source identification and forecasting of dynamical systems"
 author_after: [", Saurabh Dash, and Saibal Mukhopadhyay"]
 year: 2021
 type: journal

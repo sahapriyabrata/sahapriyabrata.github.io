@@ -1,5 +1,5 @@
 ---
-title: "Fast Prediction of Spatio-Temporal Temperature Profiles in FinFET Arrays via Numerical and Machine-Learning Approaches"
+title: "Fast prediction of spatio-temporal temperature profiles in FinFET arrays via numerical and machine-learning approaches"
 author_before: ["Mingeun Choi, Rinku Dutta"]
 author_after: [", Mayur P. Singh, Saibal Mukhopadhyay, Suman Datta, and Satish Kumar"]
 year: 2024

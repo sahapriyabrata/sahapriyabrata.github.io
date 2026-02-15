@@ -1,5 +1,5 @@
 ---
-title: "CAMEL: An Adaptive Camera with Embedded Machine Learning-Based Sensor Parameter Control"
+title: "CAMEL: An adaptive camera with embedded machine learning-based sensor parameter control"
 author_before: ["Burhan Ahmad Mudassar"]
 author_after: [", Yun Long, Mohammad Faisal Amir, Evan Gebhardt, Taesik Na, Jong Hwan Ko, Marilyn Wolf, and Saibal Mukhopadhyay"]
 year: 2019

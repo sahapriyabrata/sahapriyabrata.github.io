@@ -1,5 +1,5 @@
 ---
-title: "Adaptive Control of Camera Modality with Deep Neural Network-based Feedback for Efficient Object Tracking"
+title: "Adaptive control of camera modality with deep neural network-based feedback for efficient object tracking"
 author_after: [", Burhan Ahmad Mudassar, and Saibal Mukhopadhyay"]
 year: 2018
 type: conference

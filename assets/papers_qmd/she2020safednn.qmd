@@ -1,5 +1,5 @@
 ---
-title: "SAFE-DNN: A Deep Neural Network With Spike Assisted Feature Extraction For Noise Robust Inference"
+title: "SAFE-DNN: A deep neural network with spike assisted feature extraction for noise robust inference"
 author_before: ["Xueyuan She"]
 author_after: [", Daehyun Kim, Yun Long, and Saibal Mukhopadhyay"]
 year: 2020

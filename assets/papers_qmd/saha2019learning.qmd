@@ -1,5 +1,5 @@
 ---
-title: "Learning Evolution of Coupled Dynamical Systems with Integrated Data-driven and Model-based Approach"
+title: "Learning evolution of coupled dynamical systems with integrated data-driven and model-based approach"
 author_after: [", Arslan Ali, Burhan Ahmad Mudassar, Yun Long, and Saibal Mukhopadhyay"]
 year: 2019
 type: workshop

@@ -1,5 +1,5 @@
 ---
-title: "MagNet: Discovering Multi-agent Interaction Dynamics using Neural Network"
+title: "MagNet: Discovering multi-agent interaction dynamics using neural network"
 author_after: [", Arslan Ali, Burhan Ahmad Mudassar, Yun Long, and Saibal Mukhopadhyay"]
 year: 2020
 type: conference

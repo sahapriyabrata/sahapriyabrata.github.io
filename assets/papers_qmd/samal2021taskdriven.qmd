@@ -1,5 +1,5 @@
 ---
-title: "Task-driven RGB-Lidar Fusion for Object Tracking in Resource-Efficient Autonomous System"
+title: "Task-driven RGB-Lidar fusion for object tracking in resource-efficient autonomous system"
 author_before: ["Kruttidipta Samal, Hemant Kumawat"]
 author_after: [", Marilyn Wolf, and Saibal Mukhopadhyay"]
 year: 2021

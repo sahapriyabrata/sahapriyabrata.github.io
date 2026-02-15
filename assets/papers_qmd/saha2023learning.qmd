@@ -1,5 +1,5 @@
 ---
-title: "Learning Deep Neural Network Controller for Path Following of Unicycle Robots"
+title: "Learning deep neural network controller for path following of unicycle robots"
 author_after: [", Luis Guerrero-Bonilla, Magnus Egerstedt, and Saibal Mukhopadhyay"]
 year: 2023
 type: journal

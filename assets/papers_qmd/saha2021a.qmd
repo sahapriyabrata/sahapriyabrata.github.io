@@ -1,5 +1,5 @@
 ---
-title: "A Deep Learning Approach for Predicting Spatiotemporal Dynamics from Sparsely Observed Data"
+title: "A deep learning approach for predicting spatiotemporal dynamics from sparsely observed data"
 author_after: [" and Saibal Mukhopadhyay"]
 year: 2021
 type: journal

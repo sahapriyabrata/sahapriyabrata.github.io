@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Approaches for Ray-Based Ocean Acoustic Tomography"
+title: "Machine learning approaches for ray-based ocean acoustic tomography"
 author_before: ["Jihui Jin"]
 author_after: [", Nicholas C. Durofchalk, Saibal Mukhopadhyay, Justin Romberg, and Karim G. Sabra"]
 year: 2022

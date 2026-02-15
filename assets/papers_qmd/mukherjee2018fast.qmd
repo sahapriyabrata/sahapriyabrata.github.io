@@ -1,5 +1,5 @@
 ---
-title: "Fast Adaptive Motion Estimation Algorithm and Its Efficient VLSI System for High Definition Videos"
+title: "Fast adaptive motion estimation algorithm and its efficient VLSI system for high definition videos"
 author_before: ["Rohan Mukherjee"]
 author_after: [", Indrajit Chakrabarti, Pranab Kumar Dutta, and Ajoy Kumar Ray"]
 year: 2018

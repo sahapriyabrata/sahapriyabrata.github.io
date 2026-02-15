@@ -1,5 +1,5 @@
 ---
-title: "Mixture of Pre-Processing Experts Model for Noise Robust Deep Learning on Resource Constrained Platforms"
+title: "Mixture of pre-processing experts model for noise robust deep learning on resource constrained platforms"
 author_before: ["Taesik Na, Minah Lee, Burhan Ahmad Mudassar"]
 author_after: [", Jong Hwan Ko, and Saibal Mukhopadhyay"]
 year: 2019

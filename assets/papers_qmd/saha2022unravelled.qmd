@@ -1,5 +1,5 @@
 ---
-title: "Unravelled Multilevel Transformation Networks for Predicting Sparsely-Observed Spatiotemporal Dynamics"
+title: "Unravelled multilevel transformation networks for predicting sparsely-observed spatiotemporal dynamics"
 author_after: [" and Saibal Mukhopadhyay"]
 year: 2022
 type: journal

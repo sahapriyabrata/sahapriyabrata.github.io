@@ -1,5 +1,5 @@
 ---
-title: "Online Relational Inference for Evolving Multi-agent Interacting System"
+title: "Online relational inference for evolving multi-agent interacting system"
 author_before: ["Beomseok Kang"]
 author_after: [", Sudarshan Sharma, Biswadeep Chakraborty, and Saibal Mukhopadhyay"]
 year: 2024

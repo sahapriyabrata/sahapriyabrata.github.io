@@ -1,5 +1,5 @@
 ---
-title: "A Ferroelectric FET-Based Processing-In-Memory Architecture for DNN Acceleration"
+title: "A ferroelectric FET-based processing-in-memory architecture for DNN acceleration"
 author_before: ["Yun Long, Daehyun Kim, Edward Lee"]
 author_after: [", Burhan Ahmad Mudassar, Xueyuan She, Asif Islam Khan, and Saibal Mukhopadhyay"]
 year: 2019

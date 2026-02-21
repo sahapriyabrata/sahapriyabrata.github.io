@@ -164,7 +164,20 @@ footer.footer .footer-quarto img {
   height: 1rem;
   width: auto;
   display: block;
-  transform: translateY(3.5px); /* move logo up */
+  transform: translateY(3.0px); /* move logo up */
+}
+
+footer.footer .footer-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+footer.footer .footer-github i {
+  height: 1rem;
+  width: auto;
+  display: block;
+  transform: translateY(-1.25px); /* move logo up */
 }
 
 

@@ -24,7 +24,9 @@ website:
       Made with
       <a href="https://quarto.org" target="_blank" rel="noopener" class="footer-quarto">
         <img src="https://quarto.org/quarto.png" alt="Quarto" />
-      </a>
+      </a> ·
+      <a href="https://github.com/sahapriyabrata/sahapriyabrata.github.io" target="_blank" rel="noopener" 
+        class="footer-github" aria-label="GitHub"><i class="bi bi-github"></i></a>
 
 format:
   html:

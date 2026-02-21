@@ -89,6 +89,34 @@ $card-border-color: rgba(0,0,0,0.1);
 // }  
 
 
+footer.footer .footer-quarto {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+footer.footer .footer-quarto img {
+  height: 1rem;
+  width: auto;
+  display: block;
+  transform: translateY(3.0px); 
+}
+
+footer.footer .footer-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+footer.footer .footer-github i {
+  height: 1rem;
+  width: auto;
+  display: block;
+  transform: translateY(-2px); 
+}
+
+
+
 /* --- START CSS VARIABLE DEFINITIONS for LISTING STYLES (LIGHT MODE) --- */
 :root {
   /* Colors */

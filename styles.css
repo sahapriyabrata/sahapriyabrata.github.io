@@ -154,6 +154,7 @@ footer.footer a:hover {
   color: var(--color-link);
 }
 
+/*
 footer.footer .footer-quarto {
   display: inline-flex;
   align-items: center;
@@ -164,7 +165,7 @@ footer.footer .footer-quarto img {
   height: 1rem;
   width: auto;
   display: block;
-  transform: translateY(3.0px); /* move logo up */
+  transform: translateY(3.0px); 
 }
 
 footer.footer .footer-github {
@@ -177,9 +178,9 @@ footer.footer .footer-github i {
   height: 1rem;
   width: auto;
   display: block;
-  transform: translateY(-1.25px); /* move logo up */
+  transform: translateY(0px); 
 }
-
+*/
 
 
 /* --- GLOBAL HEADING --- */

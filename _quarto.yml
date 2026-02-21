@@ -11,9 +11,9 @@ website:
       - text: Home
         href: index.qmd
       - text: Research
-        href: research.qmd
+        href: research/index.qmd
       - text: Publications
-        href: publications.qmd
+        href: publications/index.qmd
   search: true
   google-analytics: G-8T03CZESVL
   site-url: https://sahapriyabrata.github.io

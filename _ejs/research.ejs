@@ -42,7 +42,7 @@
                  const pid = p.id ? String(p.id) : '';
                  if (!pid) return;
             %>
-              <a href="publications.html#<%- pid %>"><%- p.label %></a><% if (idx < pubs.length - 1) { %>, <% } %>
+              <a href="/publications/#<%- pid %>"><%- p.label %></a><% if (idx < pubs.length - 1) { %>, <% } %>
             <% }); %>
           </p>
         <% } %>            

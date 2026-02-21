@@ -1,13 +1,6 @@
 [
   {
-    "listing": "/research.html",
-    "items": [
-      "/assets/research/sciml.html",
-      "/assets/research/phyai.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
+    "listing": "/publications/index.html",
     "items": [
       "/assets/papers_qmd/saha2025leveraging.html",
       "/assets/papers_qmd/choi2024fast.html",
@@ -34,6 +27,13 @@
       "/assets/papers_qmd/saha2019multispectral.html",
       "/assets/papers_qmd/mukherjee2018fast.html",
       "/assets/papers_qmd/saha2018adaptive.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/assets/research/sciml.html",
+      "/assets/research/phyai.html"
     ]
   }
 ]

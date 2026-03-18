@@ -1,11 +1,11 @@
 ---
-title: "Physical AI for Perception and Control in Autonomous Systems"
+title: "Perception and Control for Intelligent Autonomous Systems"
 order: 2
 image: /assets/images/phyai.png
 summary: >
-  This research thrust focuses on developing physical AI frameworks that integrate multimodal perception with data-driven control for autonomous systems operating in real-world environments. Such systems must interpret high-dimensional sensory inputs and make control decisions under uncertainty, limited resources, and changing conditions, where treating perception and control as isolated components often leads to inefficiencies and fragile behavior.
+  This research thrust focuses on developing frameworks that integrate multimodal perception with data-driven control for intelligent autonomous systems operating in real-world environments. Such systems must interpret high-dimensional sensory inputs and make control decisions under uncertainty, limited resources, and changing conditions, where treating perception and control as isolated components often leads to inefficiencies and fragile behavior. The scope of this work spans a broad class of control systems, including robotics, cyber-physical systems, and complex engineered platforms.
 
-  The central vision of this thrust is to establish a closed-loop learning paradigm in which sensing and control co-evolve. This unified framework enables adaptive sensing, control, and performance optimization to be addressed jointly, allowing autonomous systems to reason about what to sense and how to act in support of robust autonomy across robotic and cyber-physical systems.
+  The central vision of this thrust is to establish a closed-loop learning paradigm in which sensing and control co-evolve. This unified perspective enables adaptive sensing and control for improved performance and resource efficiency, while supporting optimization-driven decision-making in dynamic environments. By jointly reasoning about what to sense and how to act, the resulting frameworks aim to enable robust and scalable autonomy across a wide range of intelligent systems.
 subthrusts:
   - title: Intelligent Sensing for Autonomous Systems
     desc: >

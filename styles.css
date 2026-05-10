@@ -249,4 +249,7 @@ footer.footer .footer-github i {
   }
 }
 
-
+/* Hide Quarto's automatic page title, keep custom .page-title */
+header#title-block-header {
+  display: none !important;
+}
